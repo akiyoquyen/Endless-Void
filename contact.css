@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    margin-left: 40em;
+    margin-top: 20em;
+    margin-right: 40em;
+}
+
+form{
+    background-color: white;
+    padding: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #8a8a8a, 0 0 20px #8a8a8a, 0 0 42px rgb(209, 209, 209), 0 0 82px rgb(209, 209, 209), 0 0 92px rgb(255, 255, 255);
+    font-family: 'Kalam';
+    font-size: 150%;
+}
+
+.send{
+    font-family: 'Kalam';
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+.user, .mail, .textbox {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.send:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.button{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 60%;
+    background-color: #e7e7e7;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.3em;
+    color: black;
+}
+
+.button:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+
+@media (max-width:768px) {
+    body {
+        margin-left: 1em;
+        margin-top: 15em;
+        margin-right: 1em;
+    }
+
+    form {
+        text-align: center;
+    }
+}
